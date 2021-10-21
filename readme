@@ -18,4 +18,4 @@ Details can be commented in the code.
 If the phone does not receive the specified SMS, the regular algorithm does not meet the requirements, and MainacElasticity will not perform the corresponding display function.
 I am a novice, it is the first time to upload the code to Github, and I hope you can give me more advice.
 In addition, there is a bug in the code that Sharedpereference must store a number (default is 0). If the value is empty, the app will crash. I have not solved this bug.
-Sharedpereference is all given the initial value of 0, if there is a mogul has a solution also hope to give advice.
+Sharedpereference is all given the initial value of 0, if there is a guru has a solution also hope to give advice.
