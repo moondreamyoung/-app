@@ -9,4 +9,13 @@
 本人是新手，第一次将代码上传到github，还望大家能多多指教。
 
 另外，代码中还存在这样的一个bug，Sharedpereference中必须要存储数字，（默认为0）如果值为空的话，app程序将会崩溃，这个bug我没有解决，
-只是将Sharedpereference中全都赋予了初值0，如果有大佬还望不吝赐教。
+只是将Sharedpereference中全都赋予了初值0，如果有大佬有解决方法还望不吝赐教。
+
+The general process of the whole project is as follows:
+The mobile phone receives the specified SMS, uses the regular algorithm to process the SMS, compares it with the digital code stored in Sharedpereference, obtains the corresponding coordinates longitude and latitude, and returns the longitude and latitude (string value) to MainActivity.
+Then the coordinates are displayed on Baidu Map by calling the API of Baidu Map.
+Details can be commented in the code.
+If the phone does not receive the specified SMS, the regular algorithm does not meet the requirements, and MainacElasticity will not perform the corresponding display function.
+I am a novice, it is the first time to upload the code to Github, and I hope you can give me more advice.
+In addition, there is a bug in the code that Sharedpereference must store a number (default is 0). If the value is empty, the app will crash. I have not solved this bug.
+Sharedpereference is all given the initial value of 0, if there is a mogul has a solution also hope to give advice.
